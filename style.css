@@ -1,0 +1,72 @@
+body{
+    background-color: #568656;
+    text-align: center;
+}
+h1{
+    font-size: 8vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+.container{
+    height: 70vh;
+ display: flex;
+ flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.game{
+    width: 65vmin;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+   align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    font-size: 8vmin;
+    border-radius: 1rem;
+    border: none    ;
+    opacity: 0,0,0.3;
+    color: rgb(230, 50, 50);
+    background-color: #ffffc7;
+}
+.reset-btn{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: #272424;
+    color: white;
+
+
+}
+.reset-btn:hover{
+    border: 2px solid grey;
+    font-size: 1.8rem;
+}
+.newGame{
+
+font-size: 2.25rem;
+border: 1px solid black;
+border-radius: 1rem;
+background-color: #272424;
+color: white;
+
+}
+#msg{
+    color: white;
+    font-size: 2rem;
+}
+
+.hide{
+   display: none;
+}
+.disabled {
+    pointer-events: none; /* Disable click events */
+    background-color: lightgray;
+}
